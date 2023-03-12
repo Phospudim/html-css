@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <h1>Exemplo de imagem 1000x1000</h1>
+
+    <picture>
+
+        <img src="imagens/imagem 1000x1000.jpg" alt="imagem 1000x1000">
+
+    </picture>
+
+    <picture>
+
+        <source media="(max-width: 1050px)" srcset="imagens/imagem 1000x1000.jpg" type="image/png">
+        <img src="imagens/imagem 1000x1000.jpg" alt="imagem 1000x1000">
+
+    </picture>
+
+    <h1>Exemplo de imagem 700x700</h1>
+
+    <p>
+        <picture>
+            
+            <source media="(max-width:750px)" srcset="imagens/zero 700x700.jpg" type="image/png">
+
+            <source media="(min-width:1050px)" srcset="imagens/imagem 1000x1000. jpg" type="image/png">
+
+
+            <img src="imagens/zero 700x700.jpg" alt="Imagem 700x700">
+        </picture>
+    </p>
+
+    <h1>Exemplo de músicas no seu website</h1>
+
+    <p>Aqui podemos adicionar um player para tocar uma música como este 
+        <audio preload="none" controls autoplay loop>
+            <source src="Musicas/TJ Thiago Jhonathan - Eu Gosto Dela (Video Oficial)(MP3_320K).mp3" type="audio/mpeg">
+
+        </audio>
+    </p>
+    <h1>Exemplo de videos que você pode por no seu website</h1>
+
+    <p>Aqui vamos ver um exemplo de um video aqui no nosso site
+        <video width="600" poster="imagens/tumb.png" controls autoplay>
+            <source src="Videos/video troll.mp4" type="video/webm">
+            <source src="Videos/video troll.mp4" type="video/mp4">
+            <source src="Videos/video troll.mp4" type="video/ogg">
+            <p>Infelizmente seu navegador não conseguio carregar o video.</p>
+            </video>
+
+            <h1>Aqui temos um video do youtube.
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G98oXcridoM?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </h1>
+    </p>
+
+
+
+
+</body>
+</html>
