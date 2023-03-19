@@ -1,0 +1,135 @@
+/* Reset de estilos */
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    /* Estilos do header */
+    header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    }
+    
+    nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    
+    /* Estilos do hero section */
+    .hero {
+    background-image: url('https://www.ebayinc.com/assets/uploads/2018/09/Hero_New-01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .hero form {
+    display: flex;
+    margin-top: 20px;
+    }
+    
+    .hero input[type="text"] {
+    font-size: 18px;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    }
+    
+    .hero button[type="submit"] {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    }
+    
+    /* Estilos da seção de produtos em destaque */
+    .featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0;
+    }
+    
+    .product-card {
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    }
+    
+    .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    }
+    
+    .product-card h3 {
+    font-size: 24px;
+    margin: 10px;
+    }
+    
+    .product-card p {
+    font-size: 18px;
+    margin: 10px;
+    }
+    
+    .product-card button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    }
+    
+    /* Estilos da seção de categorias de produtos */
+    .product-categories {
+    margin: 50px 0;
+    }
+    
+    .product-categories h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .product-categories ul {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .product-categories li {
+    margin: 0}

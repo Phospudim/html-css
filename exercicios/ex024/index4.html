@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        *{
+            margin: 0px;
+            
+        }
+        header{
+            display: block;
+            color: white;
+            width: auto;
+            background-color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            background-image: linear-gradient(to left, rgb(164, 164, 238), transparent);
+        }
+        p{
+            padding: 30px;
+            color: rgb(233, 135, 8);
+        }
+        #meu-iframe{
+            background-color: white;
+            border-radius: 15px 0px 0px 15px;
+        }
+     
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        
+            <h1>Faça uma escolha</h1>
+    </header>
+
+        <main>
+       
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium obcaecati inventore officia nam enim, fugiat, atque nisi vel, quidem dicta ducimus odio. Adipisci iure veritatis sunt aut atque, provident quibusdam?</p>
+            <ul>
+                <li><a href="index3.html" target="frame">Primeira página</a></li>
+                <li><a href="index1.html" target="frame">Segunda página</a></li>
+                <li><a href="index.html" target="frame">Terceira página</a></li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia recusandae voluptates natus commodi magnam perferendis error minus quas sit, aut molestias, voluptate, aspernatur autem dolores impedit eius repellendus facere reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt in qui temporibus harum iusto dolores facere maxime minus voluptatibus ad. Quas consequatur dolorum minus animi repudiandae itaque blanditiis hic maxime?</p>
+
+            <iframe srcdoc="<h1> OLá mundo </h1><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dicta asperiores in est atque voluptatum, corporis quam soluta? Qui quaerat reiciendis iusto iure ipsam culpa, ullam saepe rerum aut animi.</p> " frameborder="0" width="1000px" height="500px" id="meu-iframe" name="frame"></iframe>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi facilis, impedit labore dicta, voluptates in accusamus laboriosam pariatur ipsam consequatur error aspernatur ipsa accusantium quibusdam eveniet? Ullam quis tempore possimus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eos, magni reiciendis a sequi aperiam porro sint nemo deserunt voluptatum, amet error quibusdam culpa obcaecati? Debitis magni officia illo recusandae!</p>
+        
+    </main>
+
+    
+</body>
+</html>
